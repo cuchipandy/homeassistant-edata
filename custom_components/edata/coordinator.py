@@ -47,7 +47,6 @@ class EdataCoordinator(DataUpdateCoordinator):
                     p1_kw_year_eur=billing[const.PRICE_P1_KW_YEAR],
                     p2_kw_year_eur=billing[const.PRICE_P2_KW_YEAR],
                     meter_month_eur=billing[const.PRICE_METER_MONTH],
-                    market_kw_year_eur=billing[const.PRICE_MARKET_KW_YEAR],
                     electricity_tax=billing[const.PRICE_ELECTRICITY_TAX],
                     iva_tax=billing[const.PRICE_IVA],
                     p1_kwh_eur=None,
@@ -62,7 +61,6 @@ class EdataCoordinator(DataUpdateCoordinator):
                     p2_kwh_eur=billing[const.PRICE_P2_KWH],
                     p3_kwh_eur=billing[const.PRICE_P3_KWH],
                     meter_month_eur=billing[const.PRICE_METER_MONTH],
-                    market_kw_year_eur=billing[const.PRICE_MARKET_KW_YEAR],
                     electricity_tax=billing[const.PRICE_ELECTRICITY_TAX],
                     iva_tax=billing[const.PRICE_IVA],
                 )
