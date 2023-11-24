@@ -176,13 +176,6 @@ class OptionsFlowHandler(config_entries.OptionsFlow):
                 ),
             ): float,
             vol.Required(
-                const.PRICE_MARKET_KW_YEAR,
-                default=self.config_entry.options.get(
-                    const.PRICE_MARKET_KW_YEAR,
-                    const.DEFAULT_PRICE_MARKET_KW_YEAR,
-                ),
-            ): float,
-            vol.Required(
                 const.PRICE_ELECTRICITY_TAX,
                 default=self.config_entry.options.get(
                     const.PRICE_ELECTRICITY_TAX,
