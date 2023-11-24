@@ -125,9 +125,6 @@ async def async_setup_entry(hass, config_entry, async_add_entities):
             if not is_pvpc
             else None,
             const.PRICE_METER_MONTH: config_entry.options.get(const.PRICE_METER_MONTH),
-            const.PRICE_MARKET_KW_YEAR: config_entry.options.get(
-                const.PRICE_MARKET_KW_YEAR
-            ),
             const.PRICE_ELECTRICITY_TAX: config_entry.options.get(
                 const.PRICE_ELECTRICITY_TAX
             ),
